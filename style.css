@@ -1,0 +1,285 @@
+
+/* General design */
+*{
+    background-color: #FEFCF3;
+    margin: 0;
+}
+
+/* Container designes */
+
+.top-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.mid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.edu-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px auto 50px auto;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+
+.skill-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(35%, auto) 1fr;
+    grid-template-rows: minmax(15%, auto) 1fr 1fr;
+}
+
+
+/* text designs */
+.h-serif{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    color: #DBA39A;
+    text-transform: uppercase;
+    align-self: end;
+    font-size: xx-large;
+    margin: 0;
+    text-align: center;
+  }
+  
+.text{
+    font-size: large;
+    margin-top: 5px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.underline{
+    text-decoration-line: underline;
+    text-underline-offset: auto;
+    font-size: large;
+}
+
+.h3{
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+    padding-left: 23px;
+}
+
+.list-text{
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+}
+
+/* picture designs */
+.farn{
+    height: 200px;
+}
+
+.farn-bottom{
+    display: flex;
+    justify-content: end;
+}
+
+.farn-bottom > img{
+    transform: rotate(-180deg);
+}
+
+
+.my-pictures{
+    border-radius: 25%;
+    height: 200px;
+}
+
+
+/* Grid item designs */
+
+.picture-row-1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 25px;
+}
+
+.picture-row-2{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    padding-right: 25px;
+}
+
+
+.table-heading{
+    align-self: start;
+    grid-column: span 2;
+}
+
+.table-1{
+    grid-column: span 2;
+    padding-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.table-1 ul li {
+    font-family: "Roboto", sans-serif;
+}
+
+.table-2-1{
+    padding-top: 25px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.table-2-1 ul li {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.table-2-2{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.table-2-2 ul li {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.text-positioning{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-right: 100px;
+    padding-left: 25px;
+}
+
+
+/* Footer design */
+.footer-container{
+    background-color: #F5EBE0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-container > *{
+    background-color: #F5EBE0;
+}
+
+.footer-container > a{
+    color: #DBA39A;
+}
+
+.footer-container > p{
+    color: #DBA39A;
+    grid-column: span 3;
+}
+
+
+/* Responsive Media Query */
+@media (max-width: 600px) {
+    /* Containers */
+    .top-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .mid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    
+    /* Texts */
+    .h-serif{
+        font-size: 1.5rem;
+    }
+
+    .h3{
+        font-size: small;
+        padding-left: 5px;
+    }
+
+    #list-padding{
+        padding-inline-start: 20px;
+    }
+    
+    .list-text{
+        font-size: x-small;
+    }
+
+    .text{
+        font-size: small;
+    }
+
+    .underline{
+        font-size: small;
+    }
+
+    /* Pictures */
+    .farn{
+        height: 125px;
+    }
+
+    .my-pictures{
+        height: 100px;
+    }
+
+    /* Grid Items */
+    .table-1{
+        grid-column: span 2;
+        padding-top: 5px;
+        margin: 0;
+    }
+
+    .table-2-1{
+        padding: 0;
+        margin: 0;
+    }
+
+    .table-2-2{
+        padding: 0;
+        margin: 0;
+    }
+
+    #table-sub-heading{
+        padding: 0;
+    }
+
+    .text-positioning{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        padding-right: 25px;
+        padding-left: 5px;
+    }
+
+    .footer-container > a{
+        color: #DBA39A;
+        font-size: x-small;
+    }
+
+    .footer-container > p{
+        color: #DBA39A;
+        grid-column: span 3;
+        font-size: small;
+    }
+
+
+}
