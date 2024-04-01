@@ -179,10 +179,10 @@
 
 .footer-flex{
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
-.footer-container > *{
+.footer-container{
     background-color: #F5EBE0;
 }
 
@@ -191,6 +191,7 @@
 }
 
 .footer-container > p{
+    background-color: #F5EBE0;
     color: #DBA39A;
     grid-column: span 3;
 }
@@ -216,6 +217,9 @@
 
 .sub-center-piece{
     margin: 15px;
+    height: 300px;
+    display: flex;
+    align-items: center;
 }
 
 
