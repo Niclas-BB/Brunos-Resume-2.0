@@ -94,6 +94,7 @@
 .my-pictures{
     border-radius: 25%;
     height: 200px;
+    widht: 200px;
 }
 
 
@@ -239,6 +240,7 @@
 
     .my-pictures{
         height: 100px;
+        widht: 100px;
     }
 
     /* Grid Items */
