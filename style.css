@@ -94,7 +94,7 @@
 .my-pictures{
     border-radius: 25%;
     height: 200px;
-    widht: 200px;
+    width: 200px;
 }
 
 
@@ -190,6 +190,24 @@
     grid-column: span 3;
 }
 
+.button{
+    background-color: #F5EBE0;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* Sub-pages */
+.sub-body{
+    background-color: #FEFCF3;
+}
+
+.sub-page{
+    text-align: center;
+}
+
+
+
 
 /* Responsive Media Query */
 @media (max-width: 600px) {
@@ -240,7 +258,7 @@
 
     .my-pictures{
         height: 100px;
-        widht: 100px;
+        width: 100px;
     }
 
     /* Grid Items */
