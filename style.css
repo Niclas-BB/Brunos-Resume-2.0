@@ -177,11 +177,16 @@
     padding-bottom: 25px;
 }
 
+.footer-flex{
+    display: flex;
+    align-content: center;
+}
+
 .footer-container > *{
     background-color: #F5EBE0;
 }
 
-.footer-container > a{
+.footer-container > button{
     color: #DBA39A;
 }
 
@@ -192,6 +197,7 @@
 
 .button{
     background-color: #F5EBE0;
+    font-family: "Roboto", sans-serif;
     height: 35px;
     width: 100px;
     border-radius: 5px;
@@ -200,13 +206,17 @@
 /* Sub-pages */
 .sub-body{
     background-color: #FEFCF3;
+
 }
 
 .sub-page{
+    margin: 20px;
     text-align: center;
 }
 
-
+.sub-center-piece{
+    margin: 15px;
+}
 
 
 /* Responsive Media Query */
