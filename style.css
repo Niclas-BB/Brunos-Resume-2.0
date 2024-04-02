@@ -90,6 +90,10 @@
     transform: rotate(-180deg);
 }
 
+.my-pictures-main{
+    height: 200px;
+    border-radius: 25%;
+}
 
 .my-pictures{
     border-radius: 25%;
@@ -293,12 +297,14 @@
     }
 
     .my-pictures-main{
-        height: 150px;
+        height: 100px;
+        border-radius: 25%;
     }
 
     .my-pictures{
         height: 100px;
         width: 100px;
+        border-radius: 25%;
     }
 
     /* Grid Items */
