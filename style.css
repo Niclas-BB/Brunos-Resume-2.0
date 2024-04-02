@@ -177,13 +177,13 @@
     padding-bottom: 25px;
 }
 
-.footer-flex{
+.footerFlex{
     display: flex;
     justify-content: center;
     background-color: #F5EBE0;
 }
 
-.footer-flex > a{
+.footerFlex.button.footerLink{
     background-color: #F5EBE0;
 }
 
@@ -224,23 +224,24 @@
     margin: 15px;
     height: 300px;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.flex.item1{
-    order: 1;
+.subPageList{
+    text-align: start;
 }
 
-.flex.item2{
-    order: 2;
+.flex-item1{
+    margin: 15px;
 }
 
-.flex.item3{
-    order: 3;
+.flex-item3{
+    margin: 15px;
 }
 
-.flex.item4{
-    order: 4;
+.flex-item4{
+    margin: 15px;
 }
 
 
