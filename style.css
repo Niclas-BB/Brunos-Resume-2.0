@@ -180,6 +180,11 @@
 .footer-flex{
     display: flex;
     justify-content: center;
+    background-color: #F5EBE0;
+}
+
+.footer-flex > a{
+    background-color: #F5EBE0;
 }
 
 .footer-container{
@@ -220,6 +225,22 @@
     height: 300px;
     display: flex;
     align-items: center;
+}
+
+.flex.item1{
+    order: 1;
+}
+
+.flex.item2{
+    order: 2;
+}
+
+.flex.item3{
+    order: 3;
+}
+
+.flex.item4{
+    order: 4;
 }
 
 
