@@ -73,7 +73,7 @@
 
 .list-text{
     font-family: "Roboto", sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 
 /* picture designs */
@@ -290,6 +290,10 @@
     /* Pictures */
     .farn{
         height: 125px;
+    }
+
+    .my-pictures-main{
+        height: 150px;
     }
 
     .my-pictures{
